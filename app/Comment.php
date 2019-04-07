@@ -14,4 +14,10 @@ class Comment extends Model
         'commentable_type',
         
     ];
+
+
+
+
+
+    
 }

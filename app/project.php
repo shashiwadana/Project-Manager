@@ -14,4 +14,17 @@ class project extends Model
         'days',
         
     ];
+
+    public function user(){
+        return $this->belongsTo('App\Models\User');
+    }
+
+
+
+public function company(){
+    return $this->belongsTo('App\Models\Company');
+}
+
+
+
 }
