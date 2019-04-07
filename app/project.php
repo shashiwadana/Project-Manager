@@ -16,13 +16,13 @@ class project extends Model
     ];
 
     public function user(){
-        return $this->belongsTo('App\Models\User');
+        return $this->belongsToMany('App\User');
     }
 
 
 
 public function company(){
-    return $this->belongsTo('App\Models\Company');
+    return $this->belongsTo('App\Company');
 }
 
 
